@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/styles/css/normalize.css">
+	<link rel="stylesheet" href="assets/styles/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<title>V/IRTUS</title>
+</head>
+<body>
+	@@include('blocks/header.html')
+	@@include('blocks/sidebar.html')
+	<!--@@include('blocks/graph/main.html')-->
+	<main class="main container container--background">
+		<div class="home">
+			<div class="home__items">
+				<div class="graph-options__indicators indicators">
+					<div class="indicators__item">
+						<img class="indicators__img" src="assets/images/graph/75.png" alt="statistics">
+						<div class="indicators__box">
+							<div class="indicators__number">1 300</div>
+							<div class="indicators__subject">VIEWS</div>
+						</div>
+					</div>
+					<div class="indicators__item">
+						<img class="indicators__img" src="assets/images/graph/35.png" alt="statistics">
+						<div class="indicators__box">
+							<div class="indicators__number">800</div>
+							<div class="indicators__subject">VISITORS</div>
+						</div>
+					</div>
+					<div class="indicators__item">
+						<img class="indicators__img" src="assets/images/graph/62.png" alt="statistics">
+						<div class="indicators__box">
+							<div class="indicators__number">3 800</div>
+							<div class="indicators__subject">IMPRESSIONS</div>
+						</div>
+					</div>
+				</div>
+				@@include('blocks/graph/chart.html')
+			</div>
+			<div class="home__items">
+				<div class="home__box">
+					<div class="home__item">Your projects</div>
+					<div class="home__item">
+						<img src="assets/images/avatar/ava.png" alt="avatar" class="home__avatar">
+						<div class="home__container">Mobile App
+							<div class="home__info">Symu.co $1500</div>
+						</div>
+					</div>
+					<div class="home__item">
+						<img src="assets/images/avatar/ava.png" alt="avatar" class="home-block__avatar">
+						<div class="home__container">New dashboard
+							<div class="home__info">Symu.co $1500</div>
+						</div>
+					</div>
+					<div class="home__item">
+						<img src="assets/images/avatar/ava.png" alt="avatar" class="home-block__avatar">
+						<div class="home__container">Landing page
+							<div class="home__info">Symu.co $1500</div>
+						</div>
+					</div>
+					<div class="home__item">
+						<img src="assets/images/avatar/ava.png" alt="avatar" class="home__avatar">
+						<div class="home__container">New website
+							<div class="home__info">Symu.co $1500</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="home">
+			<div class="home__sales-report" style="background-image: url(assets/images/indx/sales-report.png);"></div>
+			<div class="home__inbox inbox">
+				<div class="inbox__item">
+					<div class="inbox__container">
+							<img src="assets/images/avatar/Michelle.png" alt="avatar" class="inbox__avatar">
+							<div class="inbox__name">Michelle Stewart</div>
+							<div class="inbox__date">Today, 5:32 PM</div>
+					</div>
+					<div class="inbox__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm.</div>
+				</div>
+				<div class="inbox__item">
+					<div class="inbox__container">
+							<img src="assets/images/avatar/Michelle.png" alt="avatar" class="inbox__avatar">
+							<div class="inbox__name">Michelle Stewart</div>
+							<div class="inbox__date">Today, 5:32 PM</div>
+					</div>
+					<div class="inbox__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm.</div>
+				</div>
+				<div class="inbox__item">
+					<div class="inbox__container">
+							<img src="assets/images/avatar/Michelle.png" alt="avatar" class="inbox__avatar">
+							<div class="inbox__name">Michelle Stewart</div>
+							<div class="inbox__date">Today, 5:32 PM</div>
+					</div>
+					<div class="inbox__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm.</div>
+				</div>
+			</div>
+			<div class="home__calendar" style="background-image: url(assets/images/indx/calendar.png);"></div>
+		</div>
+	</main>
+</body>
+</html>

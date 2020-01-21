@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/styles/css/normalize.css">
+	<link rel="stylesheet" href="assets/styles/css/messages.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<title>V/IRTUS</title>
+</head>
+<body>
+	<header class="header container">
+		<div class="header__logo">
+			<a href="#!"><img src="assets/images/logo/logo.png" alt="logo"></a>
+		</div>
+		<div class="user header__user">
+			<div class="user__add">
+				<div class="user__add__content">
+					<span class="user__add--color">Add&nbsp;&nbsp;&nbsp; </span> +
+				</div>
+			</div>
+			<div class="user__search">
+				<i class="fas fa-search"></i>
+			</div>
+			<div class="user__bell">
+				<i class="far fa-bell"></i>
+			</div>
+			<div class="user__avatar">
+				<img src="assets/images/avatar/ava.png" alt="avatar">
+			</div>
+			<div class="user__chevron">
+				<i class="fas fa-chevron-down"></i>
+			</div>
+		</div>
+	</header>
+	<nav class="nav container">
+		<div class="sidebar">
+			<ul class="sidebar__items">
+				<li class="sidebar__item">
+					<a href="/"class="sidebar__link">
+						<i class="fas fa-home"></i>
+					</a>
+				</li>
+				<li class="sidebar__item">
+					<a href="projects.html"class="sidebar__link">
+						<i class="fas fa-bars"></i>
+					</a>
+				</li>
+				<li class="sidebar__item">
+					<a href="graph.html"class="sidebar__link">
+						<i class="fas fa-chart-line"></i>
+					</a>
+				</li>
+				<li class="sidebar__item active">
+					<a href="messages.html"class="sidebar__link">
+						<i class="fas fa-envelope active"></i>
+					</a>
+				</li>
+				<li class="sidebar__item">
+					<a href="#!"class="sidebar__link">
+						<i class="fas fa-user-friends"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+		<main class="main container">
+				<section class="row-mess-options">
+			<div class="row-mess-options__item">
+				<div class="row-mess-options__inner">
+					<a href="#" class="row-mess-options__link active">
+						<i class="fas fa-inbox"></i> Inbox (2)
+					</a>
+				</div>
+				<div class="row-mess-options__inner">
+					<a href="#" class="row-mess-options__link">
+						<i class="fas fa-paper-plane"></i> Sent
+					</a>
+				</div>
+				<div class="row-mess-options__inner">
+					<a href="#" class="row-mess-options__link">
+						<i class="fas fa-trash"></i> Trash
+					</a>
+				</div>
+			</div>
+			<div class="row-mess-options__item">
+				<div class="row-mess-options__filter filter">
+					Filter messages:
+					<select class="filter__items">
+  						<option class="filter__item">Date</option>
+  						<option class="filter__item">...</option>
+					</select>		
+				</div>
+			</div>
+		</section>
+		<div class="wrapper">
+						<section class="mess-list">
+				<div class="mess-list__items">
+					<div class="mess-list__item">
+						<div class="mess-list__container">
+							<img src="assets/images/avatar/Michelle.png" alt="avatar" class="mess-list__avatar">
+							<div class="mess-list__name">Michelle Stewart</div>
+							<div class="mess-list__date">Today, 5:32 PM</div>
+						</div>
+						<div class="mess-list__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm.</div>
+					</div>
+					<div class="mess-list__item">
+						<div class="mess-list__container">
+							<img src="assets/images/avatar/Jolene.png" alt="avatar" class="mess-list__avatar">
+							<div class="mess-list__name">Jolene Slater</div>
+							<div class="mess-list__date">10 April</div>
+
+						</div>
+						<div class="mess-list__excerpt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</div>
+					</div>
+					<div class="mess-list__item">
+						<div class="mess-list__container">
+							<img src="assets/images/avatar/Lyall.png" alt="avatar" class="mess-list__avatar">
+							<div class="mess-list__name">Lyall Roach</div>
+							<div class="mess-list__date mess-list__date--open">8 April</div>
+						</div>
+						<div class="mess-list__excerpt">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+					</div>
+					<div class="mess-list__item">
+						<div class="mess-list__container">
+							<img src="assets/images/avatar/Dominic.png" alt="avatar" class="mess-list__avatar">
+							<div class="mess-list__name">Dominic Lynton</div>
+							<div class="mess-list__date mess-list__date--open">2 April</div>
+						</div>
+						<div class="mess-list__excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</div>
+					</div>
+					<div class="mess-list__item">
+						<div class="mess-list__button">
+							<a href="#!" class="mess-list__link">
+								<i class="fas fa-plus"></i>
+								New coversation
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+						<section class="dialog">
+				<div class="dialog__item">
+					<img src="assets/images/avatar/Lyall.png" class="dialog__avatar" alt="avatar">
+					<div class="dialog__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ulla pariatur.</div>
+					<div class="dialog__date">4 April 2016, 5:32 PM</div>
+				</div>
+				<div class="dialog__item holder">
+					<img src="assets/images/avatar/ava.png" class="dialog__avatar" alt="avatar">
+					<div class="dialog__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</div>
+					<div class="dialog__date">4 April 2016, 5:32 PM</div>
+				</div>
+				<div class="dialog__item">
+					<img src="assets/images/avatar/Lyall.png" class="dialog__avatar" alt="avatar">
+					<div class="dialog__text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ulla pariatur.</div>
+					<div class="dialog__date">4 April 2016, 5:32 PM</div>
+				</div>
+				<div class="dialog__item holder">
+					<img src="assets/images/avatar/ava.png" class="dialog__avatar" alt="avatar">
+					<div class="dialog__text">Ut enim ad minim veniam,ex ea commo!</div>
+					<div class="dialog__date">4 April 2016, 5:32 PM</div>
+				</div>
+				<div class="dialog__item holder">
+					<img src="assets/images/avatar/ava.png" class="dialog__avatar" alt="avatar">
+					<div class="dialog__text">Ut enim ad minim </div>
+					<div class="dialog__date">4 April 2016, 5:32 PM</div>
+				</div>
+				<div class="dialog__item">
+					<form class="dialog__form"  action="" >
+						<input class="dialog__input" type="text" placeholder="Write a message">
+					</form>
+				</div>
+			</section>
+						<section class="user-info">
+				<img src="assets/images/avatar/Lyall.png" alt="avatar" class="user-info__avatar">
+				<div class="user-info__name">Lyall Roach</div>
+				<div class="user-info__range">UX/UI Designer</div>
+				<div class="user-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad</div>
+				<div class="user-info__headline">Email</div>
+				<div class="user-info__email">lyallroach@gmail.com</div>
+				<div class="user-info__headline">Phone</div>
+				<div class="user-info__phone">+48 500 400 300</div>
+				<div class="user-info__headline">Adress</div>
+				<div class="user-info__adress">65 Lorem St, Warsaw, PL</div>
+				<div class="user-info__headline">Organization</div>
+				<div class="user-info__org">Symu.co</div>
+			</section>
+		</div>
+	</main>
+</body>
+</html>

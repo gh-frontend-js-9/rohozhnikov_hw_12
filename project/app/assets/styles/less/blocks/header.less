@@ -1,0 +1,44 @@
+.header {
+	height: 96px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 3px 80px rgba(158, 163, 180, 0.3);
+	&__logo {padding-left: 29px;}
+	.user {
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		div {
+			margin-right: 53px;
+			&:last-child {margin-right: 0;}
+		}
+		&__add {
+			width: 133px;
+			height: 48px;
+			color: #2196f3;
+			position: relative;
+			border-radius: 24px;
+			border: 2px solid #2196f3;
+			&__content{
+				top: 15%;
+				left: 30%;
+				line-height: 2;
+				font-size: 18px;
+				font-weight: 400;
+				position: absolute;
+				letter-spacing: 0.24px;
+				margin-right: 0 !important;
+			}
+			&--color {color: #fff;}
+		}
+		&__search i {font-size: 27px;}
+		&__bell  i {font-size: 31px;}
+		&__avatar {margin-right: 12px !important;}
+		&__chevron {
+			font-size: 12px;
+			padding-right: 26px;
+		}
+	}
+}

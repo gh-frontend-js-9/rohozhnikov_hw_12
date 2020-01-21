@@ -1,0 +1,67 @@
+.mess-list {
+	width: 536px;
+	background-color: #2b2d3c;
+	&__item {
+		position: relative;
+		padding-left: 60px;
+		padding-right: 24px;
+		&:after {
+			left: 2px;
+			content: "";
+			height: 1px;
+			opacity: 0.3;
+			width: 532px;
+			position: absolute;
+			background-color: #9ca1b2;
+		}
+		&:last-child:after {
+			display: none;
+		}
+	}
+	&__container {
+		display: flex;
+		padding-top: 39px;
+	}
+	&__avatar {width: 42px;}
+	&__name {
+		top: 9px;
+		margin-left: 13px;
+		position: relative;
+		.user-name;
+	}
+	&__date {
+		top: 56px;
+		right: 24px;
+		color: #2196f3;
+		font-size: 14px;
+		line-height: 1.4;
+		position: absolute;
+		letter-spacing: 0.28px;
+		&--open {color: #9ca1b2;}
+	}
+	&__excerpt {
+		display: block;
+		color: #9ca1b2;
+		margin-top: 29px;
+		line-height: 28px;
+		padding-bottom: 38px;
+		letter-spacing: 0.32px;
+	}
+	&__button {
+		width: 449px;
+		height: 51px;
+		display: flex;
+		margin-top: 32px;
+		border-radius: 5px;
+		margin-bottom: 32px;
+		align-items: center;
+		justify-content: center;
+		background-color: #2196f3;
+	}
+	&__link {
+		color: #fff;
+		line-height: 2;
+		font-size: 18px;
+		letter-spacing: 0.24px;
+	}
+}
