@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../../assets/styles/css/style.css">
+    <link rel="stylesheet" href="../../../assets/styles/css/authorization.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <title>Reset Password</title>
+</head>
+<body>
+    <div class="wrapper login">
+        <div class="wrapper__item">
+            <i class="far fa-user login__icon"></i>
+        </div>
+        <div class="wrapper__item">
+            <h1>Reset Password</h1>
+            <p>Please enter you new password</p>
+            <form id="resetPasswordForm" class="login__form" action="https://geekhub-frontend-js-9.herokuapp.com/api/users/reset_password" method="POST">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" name="password" id="password" placeholder="Password">
+                <input type="password" name="confirmationPassword" id="confirmationPassword" placeholder="Confirm password">
+                <p>redText</p>
+                <button type="submit">Sign up</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="resetPassword.js">
+    </script>
+</body>
+</html>
